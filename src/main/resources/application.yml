@@ -1,0 +1,14 @@
+camunda:
+  client:
+    mode: saas
+    auth:
+      client-id: ***
+      client-secret: ***
+    cluster-id: ***
+    region: ***
+    zeebe:
+      defaults:
+        stream-enabled: false
+      override:
+        trackOrderStatus:
+          timeout: PT30S
