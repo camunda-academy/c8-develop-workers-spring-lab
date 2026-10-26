@@ -4,7 +4,7 @@ Lab project for the [Camunda 8 - Develop Workers (Spring Boot)](https://academy.
 
 This project demonstrates how to implement Camunda job workers with Spring Boot using the Camunda Spring Boot Starter. It focuses on worker behavior, variable handling, output mapping, and the relationship between BPMN service tasks and Java worker implementations.
 
-Difficulty: Intermediate | Time: ~1h 30min | Platform: Camunda 8.9.0+
+Difficulty: Intermediate | Time: ~1h 30min | Platform: Camunda 8.10.0+
 
 ## What You Will Learn
 
@@ -198,8 +198,8 @@ Main dependencies used by this lab:
 | Dependency | Version | Purpose |
 | --- | --- | --- |
 | `org.springframework.boot:spring-boot-starter-parent` | `4.0.5` | Spring Boot parent and dependency management |
-| `io.camunda:camunda-spring-boot-starter` | `8.9.0` | Camunda Spring Boot integration |
-| `io.camunda:camunda-process-test-spring` | `8.9.0` | Camunda process testing support |
+| `io.camunda:camunda-spring-boot-starter` | `8.10.0` | Camunda Spring Boot integration |
+| `io.camunda:camunda-process-test-spring` | `8.10.0` | Camunda process testing support |
 | `com.github.javafaker:javafaker` | `1.0.2` | Random test/order data generation |
 | `org.junit.jupiter:junit-jupiter` | `5.14.1` | JUnit 5 testing |
 
